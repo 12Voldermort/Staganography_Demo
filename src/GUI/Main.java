@@ -242,12 +242,11 @@ public class Main extends javax.swing.JFrame {
                 moddedImage = ImageIO.read(file);
  
                ImageIcon imageIcon = new ImageIcon(moddedImage);
-                // මෙන්න මේ පේළිය වෙනස් කරන්න
                 jLabel4.setIcon(new ImageIcon(imageIcon.getImage().getScaledInstance(jLabel4.getWidth(), jLabel4.getHeight(), Image.SCALE_SMOOTH)));
                 jTextArea1.append("Modded Image successfully loaded: " + file.getAbsolutePath() + "\n");
             } catch (Exception ex) {
                 JOptionPane.showMessageDialog(this, "Error loading image: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
-                jTextArea1.append("Error loading image: " + ex.getMessage() + "\n"); // error message එකත් JTextArea එකටම එකතු කරමු
+                jTextArea1.append("Error loading image: " + ex.getMessage() + "\n"); 
                 ex.printStackTrace();
             }
         }
