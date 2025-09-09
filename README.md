@@ -1,6 +1,12 @@
 # Steganography Tool - by code bites
 
-A simple and educational Java Swing application to demonstrate the basic principles of steganography, where text data is hidden inside an image file. This project is ideal for students and beginners learning about data hiding, image processing, and Java GUI development.
+A simple and **educational-purpose-only** Java Swing application to demonstrate the basic principles of steganography, where text data is hidden inside an image file. This project is ideal for students and beginners learning about data hiding, image processing, and Java GUI development.
+
+---
+
+### **Disclaimer**
+
+This software is provided for **educational and informational purposes only**. The creator, **code bites**, is not responsible for any misuse of this application. Users are solely responsible for their actions and must comply with all local, national, and international laws. The use of this tool for illegal or malicious activities is strictly prohibited. The creator assumes no legal liability for any damages, legal claims, or other consequences that may arise from the misuse of this software.
 
 ---
 
@@ -20,7 +26,7 @@ A simple and educational Java Swing application to demonstrate the basic princip
 1.  **Download the `.jar` file:** Go to the [Releases](https://github.com/12Voldermort/Staganography_Demo/releases) section of this repository and download the latest `steganography-tool.jar` file.
 2.  **Run the file:** Double-click the `.jar` file. The application window should open.
 
-> **Note:** Make sure you have the Java Runtime Environment (JRE) installed on your computer.
+> **Note:** This project was built with **Java Development Kit (JDK) 8**. It is recommended to use a compatible JRE (version 8 or newer) to run the application without issues.
 
 #### **Method 2: Running with an IDE (for Developers)**
 
@@ -31,7 +37,6 @@ A simple and educational Java Swing application to demonstrate the basic princip
     ```
 
 2.  **Open in NetBeans:** Open the cloned project in NetBeans (or your preferred Java IDE).
-
 3.  **Run the Project:** Right-click the project folder in NetBeans and select `Run`.
 
 ---
