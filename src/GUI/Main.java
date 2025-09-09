@@ -208,9 +208,9 @@ public class Main extends javax.swing.JFrame {
                 File fileToSave = fileChooser.getSelectedFile();
 
               
-                String outputPath = fileToSave.getAbsolutePath();
-                if (!outputPath.toLowerCase().endsWith(".jpg")) {
-                    outputPath += ".jpg";
+                String outputPath = fileToSave.getAbsolutePath(); 
+               if (!outputPath.toLowerCase().endsWith(".png")) {
+                    outputPath += ".png";
                 }
 
                 Boolean s = hideMessage(message, originalImage, outputPath);
@@ -240,8 +240,8 @@ public class Main extends javax.swing.JFrame {
             try {
                 File file = fileChooser.getSelectedFile();
                 moddedImage = ImageIO.read(file);
-
-                ImageIcon imageIcon = new ImageIcon(moddedImage);
+ 
+               ImageIcon imageIcon = new ImageIcon(moddedImage);
                 // මෙන්න මේ පේළිය වෙනස් කරන්න
                 jLabel4.setIcon(new ImageIcon(imageIcon.getImage().getScaledInstance(jLabel4.getWidth(), jLabel4.getHeight(), Image.SCALE_SMOOTH)));
                 jTextArea1.append("Modded Image successfully loaded: " + file.getAbsolutePath() + "\n");
