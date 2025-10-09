@@ -60,7 +60,7 @@ We use **.png** images because they use a **lossless compression** format. This 
 
 ### **Contribution**
 
-If you'd like to improve this project, feel free to open a pull request! Your contributions are welcome.
+If you'd like to improve this project, feel free to open a pull request! Your contributions are welcome..
 
 ### **Created by**
 
