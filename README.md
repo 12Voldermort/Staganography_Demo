@@ -33,7 +33,7 @@ This software is provided for **educational and informational purposes only**. T
 1.  **Clone the repository:** Use the following command to clone the project to your local machine:
 
     ```bash
-    git clone [https://github.com/12Voldermort/Staganography_Demo.git](https://github.com/12Voldermort/Staganography_Demo.git)
+    git clone [https://github.com/waruna-dilshan/Staganography_Demo.git](https://github.com/waruna-dilshan/Staganography_Demo.git)
     ```
 
 2.  **Open in NetBeans:** Open the cloned project in NetBeans (or your preferred Java IDE).
